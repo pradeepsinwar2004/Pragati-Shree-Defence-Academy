@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex
+{
+    display: flex;
+}
+.grid
+{
+    display: grid;
+}
+/* header  */
+.head-section
+{
+    height: 100px;
+    background-image: url(banner-1709771_640.jpg);
+}
+.img-container
+{
+  justify-content: space-between;
+    
+}
+.text
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.logo-img
+{
+    height: 100px;
+}
+.boss-img
+{
+    height: 100px;
+    margin-left: 80px;
+}
+/* navbar */
+.nav-bar
+{
+    height: 40px;
+    gap: 60px;
+   padding-left: 200px;
+   padding-top: 10px;
+    background-color: rgb(250, 250, 250);
+    
+}
+.link
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+.link:hover
+{
+    color :  rgba(43, 29, 13, 0.743) ;
+    text-decoration :underline solid  rgba(74, 47, 18, 0.976);
+    
+}
+/* motivation-templet */
+.insights-container
+{
+    height: 400px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url(istockphoto-1454563213-612x612.jpg);
+   background-size: 50% 400px;
+}
+
+/* Result-section */
+ .selection-heading
+ {
+    height: 40px;
+    text-align: center;
+    color: rgb(255, 157, 0);
+    background-color: rgb(90, 64, 38);
+    padding-top: 10px;
+ }
+.container-box
+{
+    height: 700px;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 350px 350px;
+}
+.sbox
+{
+    height: 350px;
+    background-image: url(pexels-photo-235985.jpeg);
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 175px 175px;
+}
+.sbox-11
+{
+    background-color: rgba(85, 67, 47, 0.396);
+    border: 2px solid rgba(85, 67, 47, 0.396);
+    
+}
+.sbox-12
+{
+    padding-left: 10px;
+    padding-top: 30px;
+    background-color: rgba(85, 67, 47, 0.396);
+    border: 2px solid rgba(85, 67, 47, 0.396);
+    
+}
+.sbox-img
+{
+    height: 170px;
+    width: 200px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.para12
+{
+    margin-top: 20px;
+}
+
+/* footer  */
+.foot-content
+{
+    height: 50px;
+    background-color: rgb(244, 238, 238);
+    padding-top: 10px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.contact-img
+{
+    height: 25px;
+}
+
+
+
+
+
+
+
